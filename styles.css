@@ -1,0 +1,51 @@
+/* ปรับขนาดตัวอักษรและระยะห่างสำหรับอุปกรณ์ขนาดเล็ก */
+@media (max-width: 768px) {
+    body {
+        display: block; /* จัดให้เป็นแบบบล็อก */
+        text-align: center;
+        padding: 10px;
+        height: auto; /* ป้องกันการเลื่อน */
+    }
+
+    .sour-gummy-header {
+        font-size: 2em; /* ลดขนาดฟอนต์ */
+        top: 10%; /* ปรับตำแหน่ง */
+    }
+
+    .container {
+        max-width: 90%; /* ปรับความกว้างให้แคบลง */
+        width: 100%; /* ใช้เต็มหน้าจอ */
+        padding: 20px; /* ลด Padding */
+        border-radius: 20px; /* ปรับให้เล็กลง */
+    }
+
+    p {
+        font-size: 1.5em; /* ลดขนาดข้อความ */
+        margin-bottom: 30px;
+    }
+
+    .link-list a {
+        font-size: 1.2em; /* ลดขนาดลิงก์ */
+    }
+
+    footer {
+        font-size: 0.8em; /* ลดขนาด footer */
+        bottom: 5px;
+    }
+}
+
+/* สำหรับอุปกรณ์ขนาดใหญ่มาก */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 50%; /* เพิ่มขนาดให้ดูเต็มบนหน้าจอใหญ่ */
+        padding: 60px; /* เพิ่ม Padding */
+    }
+
+    p {
+        font-size: 2.5em; /* ขยายข้อความ */
+    }
+
+    .link-list a {
+        font-size: 1.6em; /* ขยายลิงก์ */
+    }
+}

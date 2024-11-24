@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Links Center</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://scontent.futp1-1.fna.fbcdn.net/v/t1.15752-9/462570180_735758815431662_4939344300894477780_n.png?_nc_cat=101&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFksdEiqdnlioWPbFmblxeDgflLqfpQ1_WB-Uup-lDX9RHnhsZxX_BdsiMItmKET2QJDo5TK4uLVKQuPU2vinHw&_nc_ohc=sI_soErT5VkQ7kNvgFZmHfO&_nc_zt=23&_nc_ht=scontent.futp1-1.fna&oh=03_Q7cD1QHobOS1K_3qo-eMlJA29vLwjTe30XZhiZKw4mfU7VEIPg&oe=6757DFD4'); /* เปลี่ยนเป็นลิงก์ที่ใช้ได้ */
+            background-size: cover;
+            background-position: center;
+            color: #217783;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .sour-gummy-header {
+            font-family: "Sour Gummy", sans-serif;
+            font-size: 2.5em;
+            color: #000;
+            text-shadow: 0 0 10px #5EFF00, 0 0 20px #00FFB3, 0 0 40px #0099FF, 0 0 80px #006EFF;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .container {
+            border: 2px solid white;
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 0 12px rgba(102, 100, 100, 0.5);
+            background-color: rgba(255, 255, 255, 0.8);
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        .silkscreen-text {
+            font-family: "Silkscreen", sans-serif;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .link-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .link-list li {
+            margin: 10px 0;
+        }
+
+        .link-list a {
+            text-decoration: none;
+            color: rgb(26, 17, 73);
+            text-shadow: 0 0 10px rgb(35, 171, 235);
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        .link-list a:hover {
+            color: #08a515;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #333;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .sour-gummy-header {
+                font-size: 2em;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            .link-list a {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sour-gummy-header">Welcome To Mr.PotaePotato Links</div>
+    <div class="container">
+        <p class="silkscreen-text">🔗 Social Media List 🔗</p>
+        <ul class="link-list">
+            <li><a href="https://www.youtube.com/channel/UCoTf8ucUB41mpGcJRsSij_A" target="_blank">YouTube : MR.PotaePotato</a></li>
+            <li><a href="https://www.instagram.com/potato.potae/" target="_blank">Instagram : @potato.potae</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100088449636024" target="_blank">Facebook : @Thanakrit Suwannavut</a></li>
+            <li><a href="https://x.com/Mr_Potae_Potato" target="_blank">Twitter : @Mr.Potae.Potato</a></li>
+            <li><a href="https://www.tiktok.com/@mr.potato.potae" target="_blank">TikTok : @mr.potato.potae</a></li>
+        </ul>
+    </div>
+    <footer>
+        Mr.PP Copyright © 2024. All rights reserved.
+    </footer>
+</body>
+</html>
